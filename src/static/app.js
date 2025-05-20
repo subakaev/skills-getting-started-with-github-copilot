@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
           <div class="participants-section">
-            <strong>Participants:</strong>
+            <h5>Participants:</h5>
             ${participantsHTML}
           </div>
         `;
